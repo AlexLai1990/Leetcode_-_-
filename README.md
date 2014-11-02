@@ -8,6 +8,8 @@ I hope this could be the last time for me to write leetcode with c++ before inte
 10/27 
 Greedy Algorithm 
 
-10/28
+10/28 - 11/1
 Dynamic Programming
 
+11/2 
+Array, Hashtable
