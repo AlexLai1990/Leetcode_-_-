@@ -20,3 +20,26 @@ void readLastKLine(const string &file_name) {
 	}
 	
 }
+
+/*
+Node *deepCopyNode(Node * node) {
+	if (node == NULL);
+		return ;
+	unorderedmap<Node *, Node *> m_dict;
+	return	deepCopyNodeHelper(node, m_dict);
+}
+
+Node *deepCopyNodeHelper(Node * curr, unorderedmap<Node *, Node *> & m_dict) {
+	if (curr == NULL)
+		return NULL;
+	if (m_dict.find(curr) != m_dict.end()) {
+		return m_dict[curr];
+	}
+	Node * m_new = new Node();
+	m_dict[curr] = m_new;
+	m_new->left = deepCopyNodeHelper(curr->left, m_dict);
+	m_new->right = deepCopyNodeHelper(curr->right, m_dict);
+	return m_new;
+}
+
+*/
