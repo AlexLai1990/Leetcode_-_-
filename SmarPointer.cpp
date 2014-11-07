@@ -1,4 +1,4 @@
-Template<class T>
+template<class T>
 class SmartPointer {
 public:
 	SmartPointer(T *obj) {
